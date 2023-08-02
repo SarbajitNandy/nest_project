@@ -1,0 +1,31 @@
+{
+  "partnerData": [
+    {
+      "id": 1,
+      "abilityToCollectTelemetry": {
+        "response": "yes",
+        "label": "Are you willing to sign a Non-Disclosure Agreement with Microsoft?"
+      },
+      "businessOwnerEmail": { "response": "a@gmail.com", "label": "Email" },
+      "typeOfFirstPartyDataReceived": {
+        "response": [
+          "Botnet: Indicator is detailing a botnet node/member",
+          "C2: Indicator is detailing a Command & Control node of a botnet"
+        ],
+        "label": "Microsoft is interested in exchanging security and threat information with partners. If you are interested in receiving feeds from us that may include malicious URL data, and hash data for all Microsoft signed binaries, what type of first party data can your organization share back? (select all that apply)"
+      },
+      "technologiesProvidedAsAService": {
+        "response": [
+          "File Based Technologies",
+          "Network Based Technologies",
+          "Intrusion Prevention Systems"
+        ],
+        "label": "Which of the following technologies does your company provide as a service or product? Check all that apply: (select all that apply)"
+      },
+      "mainGeoRegions": {
+        "response": "dvxczvxv",
+        "label": "What are the main geographical regions that your company offers protection coverage in?"
+      }
+    }
+  ]
+}
